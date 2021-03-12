@@ -1,0 +1,14 @@
+name: Hubplugin
+version: ${project.version}
+main: danix25.hubplugin.Hubplugin
+commands:
+  gamemode:
+    description: Hrac muze menit herni rezim
+    aliases: gm
+  vanish:
+    description: Hrac muze byt neviditelny
+    aliases: v
+  ci:
+    description: Hrac muze smazat inventar
+    aliases: clearinventory, clear, cinventory
+
